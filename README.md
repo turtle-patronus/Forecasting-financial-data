@@ -8,33 +8,15 @@ Sources of data:
 https://public.opendatasoft.com/
 https://financialmodelingprep.com/
 
-The dataset was generated with the file `generateCreditRatingDataset.py`. It makes use of a api and a previous dataset. More in the acknowledgement session.
-
-There are 30 features for every company of which 25 are financial indicators. They can be divided in:
-
-- `Liquidity Measurement Ratios:` currentRatio, quickRatio, cashRatio, daysOfSalesOutstanding
-- `Profitability Indicator Ratios:` grossProfitMargin, operatingProfitMargin, pretaxProfitMargin, netProfitMargin, effectiveTaxRate, returnOnAssets, returnOnEquity, returnOnCapitalEmployed
-- `Debt Ratios:` debtRatio, debtEquityRatio
-- `Operating Performance Ratios:` assetTurnover
-- `Cash Flow Indicator Ratios`: operatingCashFlowPerShare, freeCashFlowPerShare, cashPerShare, operatingCashFlowSalesRatio, freeCashFlowOperatingCashFlowRatio
-
-
 ## Results
 
-We achieve an accuracy of 69.14% with an XGboost model.
+Accuracy of 69.14% was achieved with an XGboost model.
 
 ![Imgur](https://i.imgur.com/T2TEa43.png)
 
 
 ## Companies
 
-We can see companies such as `Walt Disney` and `Philip Morris` are low risk. `Foot locker` and `MGM` are considered risky companies.   
+It was observed that companies such as `Walt Disney` and `Philip Morris` are low risk while `Foot locker` and `MGM` are considered to be risky companies.   
 
 ![Imgur](https://i.imgur.com/DRu0lcO.png)
-
-
-## Acknowledgement
-
-Sorces of Data: Thanks a lot for these services and their amazing datasets.
-`Credit Rating:` [opendatasoft](https://public.opendatasoft.com/)
-`Financial Informatino:` [financialmodelingprep](https://financialmodelingprep.com/)
