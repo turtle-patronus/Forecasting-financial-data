@@ -17,6 +17,6 @@ Accuracy of 69.14% was achieved with an XGboost model.
 
 ## Companies
 
-It was observed that companies such as `Walt Disney` and `Philip Morris` are low risk while `Foot locker` and `MGM` are considered to be risky companies.   
+Some companies were observed to have low risk while some companies had a considerably high risk.
 
 ![Imgur](https://i.imgur.com/DRu0lcO.png)
