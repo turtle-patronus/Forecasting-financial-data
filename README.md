@@ -10,7 +10,7 @@ https://financialmodelingprep.com/
 
 ## Results
 
-Accuracy of 69.14% was achieved with an XGboost model.
+Accuracy of 69.14% was achieved with an XGBoost model.
 
 ![Imgur](https://i.imgur.com/T2TEa43.png)
 
