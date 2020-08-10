@@ -5,6 +5,7 @@ This repository contains the results of a data analysis performed on a set of co
 ## The Dataset
 
 Sources of data:
+ 
 https://public.opendatasoft.com/
  
 https://financialmodelingprep.com/
